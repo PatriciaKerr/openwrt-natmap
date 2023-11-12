@@ -18,6 +18,6 @@ jobs:
       - uses: EkkoG/openwrt-packages-version-checker@main
         env:
           COMMIT_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-          REPO: heiher/natmap
+          REPO: PatriciaKerr/openwrt-natmap
           BRANCH: main
-          SOURCE_URL: https://github.com/heiher/natmap/releases/download/{{version}}/natmap-{{version}}.tar.gz
+          SOURCE_URL: https://github.com/PatriciaKerr/openwrt-natmap/releases/download/{{version}}/natmap-{{version}}.tar.gz
